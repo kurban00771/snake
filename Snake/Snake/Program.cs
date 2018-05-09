@@ -26,8 +26,8 @@ namespace Snake
             rightLine.Draw();
 
             // Отрисовка точек			
-            Point p = new Point(4, 5, '*');
-            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            Point p = new Point(12, 15, '*');
+            Snake snake = new Snake(p, 5, Direction.RIGHT);
             snake.Draw();
 
             FoodCreator foodCreator = new FoodCreator(80, 25, '$');
